@@ -1,1 +1,116 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+body {
+  margin-top: 40px;
+  background-image: url("library.jpg");
+  background-size: contain;
+}
+
+.formCard {
+  position: relative;
+  background-color: rgba(245, 245, 245, 0.948);
+  border-radius: 1em;
+  padding: 5px;
+  font-size: 20px;
+  margin: 10px 15px;
+}
+
+.formTitle {
+  text-align: center;
+  color: rgb(163, 15, 15, 0.9);
+  font-size: 1.5em;
+}
+
+.formText {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.44);
+  font-size: 0.7em;
+  margin-top: -20px
+}
+
+label {
+  margin-left: 0.5em;
+  font-size: 0.7em;
+}
+
+.inputField {
+  width: 98%;
+  margin-left: 0.5em;
+  border: transparent;
+  padding: 5px;
+}
+
+#newBookDescription {
+  padding-bottom: 50px;
+}
+
+button {
+  border-radius: 1em;
+  border: transparent;
+  font-size: 15px;
+  margin: 0.5em;
+  padding: 10px 50px;
+  color: white;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.isbnButton{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.addButton {
+  margin-top: 1.5em;
+  background-color: rgba(58, 132, 178, 0.8);
+}
+
+.removeButton {
+  background-color: rgb(163, 15, 15, 0.8);
+}
+
+.editButton{
+  background-color: rgba(154, 154, 154, 0.8);
+}
+
+.bookCard {
+  background-color: rgba(250, 235, 215, 0.937);
+  border-radius: 1em;
+  padding: 5px;
+  font-size: 1em;
+  margin: 10px 15px;
+  /* text-align: left; */
+}
+
+.outputLabel {
+  margin-left: 0.5em;
+}
+
+.bookTitle {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+  /* margin-left: 0.5em; */
+}
+
+.bookAuthor {
+  text-align: center;
+  /* margin-left: 0.5em; */
+}
+
+.bookDescription {
+  margin-left: 0.5em;
+  text-align: justify;
+  margin-right: 2%;
+}
+
+span {
+  color: brown;
+}
